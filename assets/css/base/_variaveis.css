@@ -1,0 +1,15 @@
+:root {
+  /* CORES */
+  --azul-padrao: #3772FF;
+  --branco: white;
+  --coral: #FC7071;
+  --creme: #FCF0E3;
+  --verde: #36D6AD;
+
+  /* TIPOGRAFIA */
+  --chamada-titulo: 500 26px/48px 'IBM Plex Sans', serif;
+
+  --paragrafo: 400 16px/24px 'Poppins', serif;
+
+  --botao: 600 16px/24px 'Poppins',serif;
+}

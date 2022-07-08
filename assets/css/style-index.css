@@ -1,0 +1,49 @@
+.corpo__splash {
+  left: 290px;
+  top: 199px;
+  position: absolute;
+  z-index: -1;
+}
+
+.fundo__inicial {
+  background: var(--azul-padrao);
+}
+
+.logo__container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.chamada__container {
+  color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 56px;
+  text-align: center;
+  width: 248px;
+}
+
+.chamada__titulo {
+  font: var(--chamada-titulo);
+  height: 3rem;
+  margin: 1rem 0;
+}
+
+.chamada__texto {
+  font: var(--paragrafo);
+  height: 72px;
+  margin-bottom: 0.5rem;
+}
+
+.ilustracao__container {
+  display: flex;
+
+}
+
+.ilustracao__1 {
+  margin-left: 33px;
+  margin-bottom: -1rem;
+}

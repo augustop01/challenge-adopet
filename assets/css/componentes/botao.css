@@ -1,0 +1,11 @@
+.botao {
+  background-color: var(--coral);
+  border-radius: 8px;
+  color: var(--branco);
+  font: var(--botao);
+  margin-top: 16px;
+  border: none;
+  height: 40px;
+  width: 180px;
+  box-shadow: 2px 2px 4px #00000025;
+}
