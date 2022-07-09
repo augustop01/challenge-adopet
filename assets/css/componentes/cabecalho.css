@@ -1,15 +1,18 @@
 .cabecalho {
   display: grid;
   grid-template-columns: 50% 50%;
-  position: relative;
 }
 
 .cabecalho__icones {
   height: 120px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin-left: 1rem;
+  left: 0;
+}
+
+.icone__cabecalho {
+  margin-right: 10px;
+  margin-left: 48px;
 }
 
 .cabecalho__splash {

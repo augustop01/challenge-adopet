@@ -1,12 +1,27 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.logo__container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+}
+
 .corpo__splash {
-  left: 290px;
-  top: 199px;
   position: absolute;
   z-index: -1;
+  right: 0%;
+  top: 12.5rem;
 }
 
 .fundo__inicial {
   background: var(--azul-padrao);
+  height: 100%;
 }
 
 .logo__container {
@@ -21,9 +36,8 @@
   flex-direction: column;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
-  margin-left: 56px;
   text-align: center;
-  width: 248px;
+  width: 70%;
 }
 
 .chamada__titulo {
@@ -40,10 +54,11 @@
 
 .ilustracao__container {
   display: flex;
-
+  flex-direction: column;
+  align-items: center;
 }
 
 .ilustracao__1 {
-  margin-left: 33px;
   margin-bottom: -1rem;
+  margin-right: 20%;
 }
