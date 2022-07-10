@@ -2,6 +2,7 @@
   /* CORES */
   --azul-padrao: #3772FF;
   --branco: white;
+  --cinza: #F7F7F7;
   --coral: #FC7071;
   --creme: #FCF0E3;
   --verde: #36D6AD;
@@ -12,4 +13,8 @@
   --paragrafo: 400 16px/24px 'Poppins', serif;
 
   --botao: 600 16px/24px 'Poppins',serif;
+
+  --input-cadastro: 400 12px/16px 'Poppins', serif;
+
+  --label-cadastro: 400 16px/24px 'Poppins', serif;
 }

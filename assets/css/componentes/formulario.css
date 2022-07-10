@@ -1,0 +1,44 @@
+.formulario__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  flex-wrap: wrap;
+}
+
+input {
+  display: flex;
+  background-color: var(--cinza);
+  height: 2.5rem;
+  margin-top: 0.25rem;
+  border-style: none;
+  border-radius: .5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.input_cadastro {
+  box-shadow: 0 2px 2px #00000015;
+  color: #BCBCBC;
+  font: var(--input-cadastro);
+}
+
+
+.toggle__senha {
+  margin-top: -2.5rem;
+  padding-left: 85%;
+}
+
+.recuperar__senha {
+  margin-top: .5rem;
+  font: var(--input-cadastro);
+  color: var(--coral);
+  text-decoration: underline;
+}

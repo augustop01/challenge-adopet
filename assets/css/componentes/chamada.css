@@ -1,0 +1,20 @@
+.chamada__cadastro {
+  font: var(--paragrafo);
+  text-align: center;
+}
+
+.chamada__cadastro:first-of-type {
+  margin-bottom: 1rem;
+}
+
+.chamada__titulo {
+  font: var(--chamada-titulo);
+  height: 3rem;
+  margin: 1rem 0;
+}
+
+.chamada__texto {
+  font: var(--paragrafo);
+  height: 72px;
+  margin-bottom: 0.5rem;
+}
