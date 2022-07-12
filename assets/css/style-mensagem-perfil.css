@@ -1,0 +1,64 @@
+.perfil__editar__foto {
+  align-self: center;
+  color: var(--coral);
+  font: 400 12px/24px 'Poppins', serif;
+}
+
+.chamada__container {
+  color: var(--azul-padrao);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  padding-right: 4.25rem;
+  padding-left: 4.25rem;
+}
+
+.chamada__container__perfil {
+  color: var(--azul-padrao);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  padding-right: 3.565rem;
+  padding-left: 3.565rem;
+}
+
+.chamada__texto {
+  margin-bottom: 0rem;
+}
+
+.formulario__container {
+  margin-top: 1.5rem;
+  background-color: var(--cinza);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  border-radius: .5rem;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.input__container {
+  justify-content:unset;
+  width: 90%;
+}
+
+.foto__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 85%;
+  flex-wrap: wrap;
+}
+
+.formulario__foto-perfil {
+  align-self: center;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  }

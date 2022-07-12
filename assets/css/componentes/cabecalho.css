@@ -1,4 +1,3 @@
-
 .cabecalho {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -19,12 +18,16 @@
   left: 0;
 }
 
-.icone__cabecalho {
-  margin-right: 10px;
-  margin-left: 48px;
-}
-
 .cabecalho__splash {
   position: absolute;
   z-index: -1;
+}
+
+.cabecalho__home {
+  margin-left: 3rem;
+  margin-right: 3.625rem;
+}
+
+.cabecalho__usuario {
+  margin-left: 8.375rem;
 }

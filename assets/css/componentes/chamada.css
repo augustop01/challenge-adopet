@@ -7,6 +7,11 @@
   margin-bottom: 1rem;
 }
 
+.chamada__mensagem {
+  font: var(--paragrafo);
+  text-align: center;
+}
+
 .chamada__titulo {
   font: var(--chamada-titulo);
   height: 3rem;

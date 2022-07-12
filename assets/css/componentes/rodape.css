@@ -1,8 +1,12 @@
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
 .rodape {
   background-color: var(--verde);
   color: var(--branco);
   font: var(--paragrafo);
-  position: relative;
   
   height: 104px;
   width: 100%;
@@ -11,5 +15,4 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  bottom: 0;
 }

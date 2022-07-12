@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>adopet - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/base/reset.css" />
+    <link rel="stylesheet" href="assets/css/base/base.css" />
+  
+    <link rel="stylesheet" href="assets/css/componentes/botao.css" />
+    <link rel="stylesheet" href="assets/css/componentes/cabecalho.css" />
+    <link rel="stylesheet" href="assets/css/componentes/formulario.css" />
+    <link rel="stylesheet" href="assets/css/componentes/logo.css" />
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css" />
+    <link rel="stylesheet" href="assets/css/style-mensagem-perfil.css"/>
+  </head>
+
+  <body class="fundo__cadastro">
+    <header class="cabecalho">
+      <section class="cabecalho__container home">
+        <nav class="cabecalho__icones">
+          <a href="#" class="icone__cabecalho cabecalho__home">
+            <img src="assets/img/Casa.svg" class="cabecalho__home_icone" alt="Home" />
+          </a>
+          <a href="#" class="icone__cabecalho cabecalho__contato">
+            <img src="assets/img/Mensagens.svg" class="cabecalho__contato_icone" alt="Contatos" />
+          </a>
+          <a href="#" class="icone__cabecalho cabecalho__usuario">
+            <img src="assets/img/Ellipse 1.png" class="cabecalho__usuario_icone" alt="Contatos" />
+          </a>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section class="container chamada__container__perfil">
+        <p class="chamada__mensagem">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+      </section>
+      <form class="formulario__container">
+        <p class="formulario__titulo">Perfil</p>
+
+        <div class="foto__container">
+          <label class="label__mensagem">Foto</label>
+          <img class="formulario__foto-perfil" src="/assets/img/Ellipse 2.png" alt="Sua foto de perfil.">
+          <a href="#" class="perfil__editar__foto">Clique na foto para editar</a>
+        </div>
+
+        <div class="input__container">
+          <label class="label__mensagem" for="nome">Nome</label>
+          <input class="input__mensagem" placeholder="Joana Magalhães" aria-label="Joana Magalhães" id="nome">
+        </div>
+
+        <div class="input__container">
+          <label class="label__mensagem" for="telefone">Telefone</label>
+          <input class="input__mensagem" placeholder="55 11 XXXXXXXXX" aria-label="55 11 XXXXXXXXX" id="telefone">
+        </div>
+
+          <div class="input__container">
+            <label class="label__mensagem" for="cidade">Cidade</label>
+            <input class="input__mensagem" placeholder="São Paulo" aria-label="São Paulo" id="cidade">
+          </div>
+
+          <div class="input__container">
+            <label class="label__mensagem" for="sobre">Sobre</label>
+            <textarea class="input__mensagem input_campo_mensagem" type="text" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati." aria-label="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati." id="sobre"></textarea>
+          </div>
+          <button class="botao botao__mensagem">Enviar</button>
+          </form>
+        </main>
+        <footer>
+          <section class="rodape">
+            <p>2022 - Desenvolvido por Alura.</p>
+          </section>
+        </footer>
+      </body>
+    </html>
+    

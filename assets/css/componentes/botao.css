@@ -16,6 +16,12 @@
   width: 148px;
 }
 
+.botao__mensagem {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 148px;
+}
+
 .botao__login {
   margin-top: 1.5rem;
   margin-bottom: 16rem;

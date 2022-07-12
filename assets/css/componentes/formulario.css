@@ -5,6 +5,34 @@
   width: 100%;
 }
 
+.formulario__titulo {
+  font: 600 21px/24px 'Poppins', serif;
+  margin-bottom: 1rem;
+  color: #737380;
+}
+
+.label__cadastro {
+  color: #737380;
+  font: var(--label-cadastro);
+
+}
+
+.label__mensagem {
+  color: var(--azul-padrao);
+  font: var(--label-cadastro);
+
+}
+
+input {
+  display: flex;
+  height: 2.5rem;
+  margin-top: 0.25rem;
+  border-style: none;
+  border-radius: .5rem;
+  text-align: center;
+  color: #737380;
+}
+
 .input__container {
   display: flex;
   align-items: center;
@@ -13,23 +41,42 @@
   flex-wrap: wrap;
 }
 
-input {
-  display: flex;
+.input_cadastro {
   background-color: var(--cinza);
+  box-shadow: 0 2px 2px #00000015;
+  color: #BCBCBC;
+  font: var(--input-cadastro);
+  width: 100%;
+}
+
+.input__mensagem {
+  display: flex;
+  text-align: left;
+  box-shadow: 0 2px 2px #00000015;
+  font: var(--input-cadastro);
+  width: 100%;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input__mensagem::placeholder {
+  color: #BCBCBC;
+  font: var(--input-cadastro);
+}
+
+.input_campo_mensagem {
+  height: 10rem;
+}
+
+textarea {
+  display: flex;
   height: 2.5rem;
   margin-top: 0.25rem;
   border-style: none;
   border-radius: .5rem;
   text-align: center;
-  width: 100%;
+  padding-top: 1rem;
 }
-
-.input_cadastro {
-  box-shadow: 0 2px 2px #00000015;
-  color: #BCBCBC;
-  font: var(--input-cadastro);
-}
-
 
 .toggle__senha {
   margin-top: -2.5rem;
