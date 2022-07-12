@@ -1,0 +1,70 @@
+.chamada__container {
+  color: var(--azul-padrao);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-right: 4.25rem;
+  padding-left: 4.25rem;
+}
+
+.container__disponiveis {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lista__disponiveis {
+}
+
+.cartao__pet {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #00000007;
+  height: 196px;
+  width: 360px;
+}
+
+.cartao__pet__foto {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 1.5rem;
+  width: 148px;
+  height: 148px;
+}
+
+.cartao__descricao {
+  color: #737380;
+  font: 400 14px/20px 'Poppins', serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1.7rem;
+}
+
+.cartao__nome {
+  margin-bottom: .5rem;
+  font: 600 16px/20px 'Poppins', serif;
+  color: var(--azul-padrao);
+}
+
+.cartao__localizacao {
+  font-size: 12px;
+  margin-top: 2rem;
+}
+
+.cartao__mensagem {
+  display: flex;
+  font: 400 10px/16px 'Poppins', serif;
+}
+
+.cartao__mensagem__icone {
+  padding-right: .5rem;
+}
+
+.chamada__texto {
+  margin-bottom: 0rem;
+}
