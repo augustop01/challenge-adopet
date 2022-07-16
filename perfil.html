@@ -22,14 +22,19 @@
     <header class="cabecalho">
       <section class="cabecalho__container home">
         <nav class="cabecalho__icones">
+          <a href="#" class="icone__cabecalho cabecalho__logo__perfil">
+            <img src="assets/img/Logo_cabecalho.svg" class="cabecalho__logo_icone" alt="Logo da adopet" />
+          </a>
           <a href="#" class="icone__cabecalho cabecalho__home">
             <img src="assets/img/Casa.svg" class="cabecalho__home_icone" alt="Home" />
           </a>
           <a href="#" class="icone__cabecalho cabecalho__contato">
             <img src="assets/img/Mensagens.svg" class="cabecalho__contato_icone" alt="Contatos" />
           </a>
-          <a href="#" class="icone__cabecalho cabecalho__usuario">
-            <img src="assets/img/Ellipse 1.png" class="cabecalho__usuario_icone" alt="Contatos" />
+          <a href="#" class="icone__cabecalho cabecalho__usuario__perfil">
+            <img src="assets/img/Ellipse 1.png" class="cabecalho__usuario_icone_pequeno" alt="Contatos" />
+            <img src="assets/img/Ellipse_1_768px.png" class="cabecalho__usuario_icone_medio" alt="Contatos" />
+            <img src="assets/img/Ellipse_1_1440px.png" class="cabecalho__usuario_icone_grande" alt="Contatos" />
           </a>
         </nav>
       </section>
@@ -38,13 +43,15 @@
       <section class="container chamada__container__perfil">
         <p class="chamada__mensagem">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
       </section>
-      <form class="formulario__container">
+      <form class="formulario__container__perfil">
         <p class="formulario__titulo">Perfil</p>
 
         <div class="foto__container">
           <label class="label__mensagem">Foto</label>
-          <img class="formulario__foto-perfil" src="/assets/img/Ellipse 2.png" alt="Sua foto de perfil.">
-          <a href="#" class="perfil__editar__foto">Clique na foto para editar</a>
+          <!-- <img class="formulario__foto-perfil" src="/assets/img/Ellipse 2.png" alt="Sua foto de perfil."> -->
+          <a href="#" class="perfil__editar__foto"> 
+            <img class="formulario__foto-perfil" src="/assets/img/Ellipse 2.png" alt="Sua foto de perfil."><br>
+            Clique na foto para editar</a>
         </div>
 
         <div class="input__container">
@@ -64,7 +71,7 @@
 
           <div class="input__container">
             <label class="label__mensagem" for="sobre">Sobre</label>
-            <textarea class="input__mensagem input_campo_mensagem" type="text" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati." aria-label="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati." id="sobre"></textarea>
+            <textarea class="input__mensagem input__campo__mensagem" type="text" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati." aria-label="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati." id="sobre"></textarea>
           </div>
           <button class="botao botao__mensagem">Enviar</button>
           </form>

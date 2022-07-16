@@ -1,3 +1,14 @@
+.logo__container {
+  background-image: url(../../img/Logo_2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 2.5rem;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+}
+
 .chamada__cadastro {
   font: var(--paragrafo);
   text-align: center;
@@ -22,4 +33,35 @@
   font: var(--paragrafo);
   height: 72px;
   margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .logo__container {
+    background-image: url(../../img/Logo_azul_768px.svg);
+    height: 3.9rem;
+    width: 100%;
+    margin-top: 9.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .chamada__cadastro {
+    font-size: 18px;
+    line-height: 26px;
+    width: 100%;
+  }
+
+  .chamada__cadastro:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .chamada__mensagem {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .logo__container {
+    margin-top: 8.25rem;
+  }
+
 }

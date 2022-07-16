@@ -33,11 +33,16 @@ input {
   color: #737380;
 }
 
+input::placeholder {
+  color: #BCBCBC;
+  font: var(--input-cadastro);
+}
+
 .input__container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 85%;
+  width: 34.5rem;
   flex-wrap: wrap;
 }
 
@@ -64,7 +69,8 @@ input {
   font: var(--input-cadastro);
 }
 
-.input_campo_mensagem {
+.input__campo__mensagem {
+  box-sizing: border-box;
   height: 10rem;
 }
 
@@ -88,4 +94,76 @@ textarea {
   font: var(--input-cadastro);
   color: var(--coral);
   text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+
+  .label__cadastro {
+    font-size: 18px;
+  }
+
+  input {
+    margin-top: .5rem;
+  }
+
+  .input__mensagem {
+    height: 3rem;
+  }
+
+  .label__cadastro {
+    font-size: 18px;
+    margin-top: 1.5rem;
+  }
+
+  .input__campo__mensagem {
+    box-sizing: border-box;
+    height: 6.5rem;
+  }
+
+  .formulario_tipo_1 div:first-child{
+    order: 2;
+  }
+
+  .formulario_tipo_1 div:nth-child(2){
+    order: 1;
+  }
+
+  .formulario_tipo_1 div:nth-child(3){
+    order: 3;
+  }
+
+  .formulario_tipo_1 div:nth-child(4){
+    order: 4;
+  }
+}
+
+@media (min-width:1440px) {
+
+  .input__campo__mensagem {
+    height: 10.75rem;
+  }
+
+  .input__login__email {
+    width: 34.5rem;
+  }
+
+  .input__login__senha {
+    width: 22.625rem;
+  }
+
+  .formulario_tipo_1 div:first-child{
+    width: 34.5rem;
+  }
+
+  .formulario_tipo_1 div:nth-child(2){
+    width: 34.5rem;
+  }
+
+  .formulario_tipo_1 div:nth-child(3){
+    width: 22.625rem;
+  }
+
+  .formulario_tipo_1 div:nth-child(4){
+    width: 22.625rem;
+  }
 }

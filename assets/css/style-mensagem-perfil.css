@@ -1,5 +1,6 @@
 .perfil__editar__foto {
   align-self: center;
+  text-align: center;
   color: var(--coral);
   font: 400 12px/24px 'Poppins', serif;
 }
@@ -10,9 +11,8 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 3rem;
-  padding-right: 4.25rem;
-  padding-left: 4.25rem;
+  margin-top: 4.5rem;
+  width: 14.125rem;
 }
 
 .chamada__container__perfil {
@@ -36,7 +36,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 85%;
+  width: auto;
+  border-radius: .5rem;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.formulario__container__perfil {
+  margin-top: 1.5rem;
+  background-color: var(--cinza);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
   border-radius: .5rem;
   padding-top: 2rem;
   margin-bottom: 1rem;
@@ -44,7 +56,9 @@
 
 .input__container {
   justify-content:unset;
-  width: 90%;
+  width: 17.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .foto__container {
@@ -52,7 +66,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 85%;
+  width: 17.5rem;
   flex-wrap: wrap;
 }
 
@@ -62,3 +76,91 @@
   height: 80px;
   width: 80px;
   }
+
+  @media (min-width:768px) {
+    
+    main {
+      background-image: url(../../assets/img/Forma\ 2_right_768px.svg);
+      background-position: right bottom 10.25rem;
+      background-repeat: no-repeat;
+    }
+
+    .formulario__container {
+      width:auto;
+      margin-top: 2.5rem;
+      margin-bottom: 5.6875rem;
+    }
+
+    .formulario__container__perfil {
+      width:auto;
+      margin-top: 1.625rem;
+      margin-bottom: 2rem;
+    }
+
+    .chamada__container {
+      font-size: 18px;
+      margin-top: 11.265rem;
+      width: 32.75rem;
+    }
+
+    .chamada__container__perfil {
+      font-size: 18px;
+      margin-top: 11.265rem;
+      padding-left: 7.625rem;
+      padding-right: 7.625rem;
+    }
+
+    .input__container {
+      width: 30.75rem;
+    }
+
+    .foto__container {
+      width: 30.75rem;
+    }
+  }
+
+  @media (min-width:1440px) {
+    
+    main {
+      background-image: url(../../assets/img/Forma\ 2_right_768px.svg);
+      background-position: right bottom 10.25rem;
+      background-repeat: no-repeat;
+    }
+
+    .formulario__container {
+      width:auto;
+      margin-top: 2.5rem;
+      margin-bottom: 5.6875rem;
+    }
+
+    .formulario__container__perfil {
+      width:auto;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .chamada__container {
+      font-size: 18px;
+      margin-top: 5.375rem;
+      width: 30.75rem;
+    }
+
+    .chamada__container__perfil {
+      font-size: 18px;
+      margin-top: 5.375rem;
+      padding-left: 27.75rem;
+      padding-right: 27.75rem;
+    }
+
+    .input__container {
+      width: 30.75rem;
+      margin-left: 1.875rem;
+      margin-right: 1.875rem;
+    }
+
+    .foto__container {
+      width: 30.75rem;
+      margin-bottom: 1rem;
+    }
+  }
+  

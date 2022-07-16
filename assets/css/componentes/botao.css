@@ -8,22 +8,55 @@
   height: 40px;
   width: 180px;
   box-shadow: 2px 2px 4px #00000025;
+  padding: 0;
 }
 
 .botao__cadastro {
   margin-top: 1.5rem;
   margin-bottom: 6.5rem;
-  width: 148px;
+  width: 9.25rem;
+  box-shadow: none;
 }
 
 .botao__mensagem {
   margin-top: 1rem;
   margin-bottom: 2rem;
-  width: 148px;
+  width: 9.25rem;
+  box-shadow: none;
 }
 
 .botao__login {
   margin-top: 1.5rem;
   margin-bottom: 16rem;
-  width: 148px;
+  width: 9.25rem;
+  box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  .botao__cadastro {
+    width: 10.25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 11.565rem;
+  }
+
+  .botao__login {
+    margin-top: 2.5rem;
+    margin-bottom: 27.125rem;
+  }
+
+  .botao__mensagem {
+    width: 10.25rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .botao__cadastro {
+    margin-top: 2rem;
+    margin-bottom: 9.45rem;
+  }
+  
+  .botao__login {
+    margin-top: 2rem;
+    margin-bottom: 22rem;
+  }
 }

@@ -7,15 +7,15 @@
   background-image: url(../../img/Patas.svg);
   background-repeat: no-repeat;
   background-position: right top;
-  padding-bottom: 5rem;
-  margin-bottom: -5rem;
+  padding-bottom: 7rem;
+  margin-bottom: -7rem;
 }
 
 .cabecalho__icones {
-  height: 120px;
   display: flex;
   align-items: center;
   left: 0;
+  margin-top: 3rem;
 }
 
 .cabecalho__splash {
@@ -23,11 +23,149 @@
   z-index: -1;
 }
 
+.cabecalho__logo {
+  width: 0;
+  height: 0;
+}
+
+.cabecalho__logo__perfil {
+  width: 0;
+  height: 0;
+}
+
 .cabecalho__home {
   margin-left: 3rem;
-  margin-right: 3.625rem;
+  margin-right: 3.5rem;
 }
 
 .cabecalho__usuario {
-  margin-left: 8.375rem;
+  margin-left: 8rem;
+}
+
+.cabecalho__usuario__perfil {
+  margin-left: 8rem;
+}
+
+.cabecalho__usuario_icone_pequeno {
+  display: inline;
+}
+
+.cabecalho__usuario_icone_medio {
+  display: none;
+}
+
+.cabecalho__usuario_icone_grande {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .cabecalho__patas {
+    background-image: url(../../img/Patas_768px.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-bottom: 10.5rem;
+    margin-bottom: -10.5rem;
+  }
+  
+  .cabecalho__icones {
+    margin-top: 3.25rem;
+  }
+
+  .cabecalho__icones__perfil {
+    margin-top: 3.25rem;
+  }
+
+  .cabecalho__logo {
+    width: auto;
+    height: auto;
+    margin-left: 3rem;
+  }
+
+  .cabecalho__logo__perfil {
+    width: auto;
+    height: auto;
+    margin-left: 6.075rem;
+  }
+
+  .cabecalho__home {
+    margin-left: 4.0625rem;
+    margin-right: 4.25rem;
+  }
+
+  .cabecalho__usuario {
+    margin-left: 20.375rem;
+  }
+
+  .cabecalho__usuario__perfil {
+    margin-left: 17.35rem;
+  }
+  
+  .cabecalho__usuario_icone_pequeno {
+    display: none;
+  }
+
+  .cabecalho__usuario_icone_medio {
+    display: inline;
+  }
+
+  .cabecalho__usuario_icone_grande {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {  
+  .cabecalho__patas {
+    background-image: url(../../img/Patas.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-bottom: 12.5rem;
+    margin-bottom: -12.5rem;
+    position: absolute;
+    width: 100%;
+  }
+
+  .cabecalho__icones {
+    margin-top: 3rem;
+  }
+
+  .cabecalho__icones__perfil {
+    margin-top: 3rem;
+  }
+
+  .cabecalho__logo {
+    width: auto;
+    height: auto;
+    margin-left: 10.075rem;
+  }
+
+  .cabecalho__logo__perfil {
+    width: auto;
+    height: auto;
+    margin-left: 10.075rem;
+  }
+
+  .cabecalho__home {
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+
+  .cabecalho__usuario {
+    margin-left: 50.365rem;
+  }
+
+  .cabecalho__usuario__perfil {
+    margin-left: 50.365rem;
+  }
+
+  .cabecalho__usuario_icone_pequeno {
+    display: none;
+  }
+
+  .cabecalho__usuario_icone_medio {
+    display: none;
+  }
+
+  .cabecalho__usuario_icone_grande {
+    display: inline;
+}
 }

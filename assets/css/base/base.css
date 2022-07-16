@@ -3,7 +3,7 @@
 @import url(../componentes/logo.css);
 
 body {
-  background-image: url(../../img/Forma\ 1.svg);
+  background-image: url(../../img/Forma\ 1_360px.svg);
   background-repeat: no-repeat;
 }
 
@@ -12,4 +12,11 @@ main {
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(../../img/Forma\ 1_768px+.svg);
+    background-repeat: no-repeat;
+  }
 }

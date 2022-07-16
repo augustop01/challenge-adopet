@@ -16,3 +16,10 @@ footer {
   justify-content: center;
   text-align: center;
 }
+
+@media (width:1440px) {
+
+  .rodape {
+  height: 5.5rem;
+  }
+}
