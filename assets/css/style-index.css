@@ -83,12 +83,12 @@ main {
   main {
     background-image: url(../../assets/img/Forma\ 2_right_768px.svg);
     background-position: right top 10.5rem;
-    width: 48rem;
+    width: 100%;
   }
 
   .chamada__container {
     background-image: url(../img/Ilustração_1_768px.svg);
-    background-position: left 12.1875rem bottom -2.65rem;
+    background-position: bottom -1.5rem left calc(50% - 1.25rem);
     margin-top: 11.1875rem;
     padding-bottom: 26.3125rem;
     width: 48rem;
@@ -133,11 +133,11 @@ main {
   main {
     background-image: url(../../assets/img/Forma\ 2_right_768px.svg);
     background-position: right top 5.375rem;
-    width: 90rem;
+    width: 100%;
   }
 
   .chamada__container {
-    background-position: left 32.5rem bottom -1.55rem;
+    background-position: bottom -1.5rem left calc(50% - 1.25rem);
     margin-top: 2.5rem;
     width: 100%;
     padding-bottom: 27.625rem;
