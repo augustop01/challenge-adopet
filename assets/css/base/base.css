@@ -2,7 +2,7 @@
 @import url(../componentes/chamada.css);
 
 body {
-  background-image: url(../../img/Forma\ 1_360px.svg);
+  background-image: url(../../img/Forma_1_360px.svg);
   background-repeat: no-repeat;
 }
 
@@ -15,7 +15,7 @@ main {
 
 @media (min-width: 768px) {
   body {
-    background-image: url(../../img/Forma\ 1_768px+.svg);
+    background-image: url(../../img/Forma_1_768px.svg);
     background-repeat: no-repeat;
   }
 }
