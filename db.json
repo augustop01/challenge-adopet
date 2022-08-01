@@ -93,34 +93,10 @@
   ],
   "usuarios": [
     {
-      "nome": "Augusto",
+      "nome": "Pessoa",
       "email": "pessoa@email.com",
-      "senha": "471471",
+      "senha": "Abc123",
       "id": 1
-    },
-    {
-      "nome": "Pamela",
-      "email": "pam@email.com",
-      "senha": "pamzinha",
-      "id": 2
-    },
-    {
-      "nome": "Jackson",
-      "email": "jackson@email.com",
-      "senha": "Jack159",
-      "id": 3
-    },
-    {
-      "nome": "Larissa",
-      "email": "larilda@email.com",
-      "senha": "Lari123",
-      "id": 4
-    },
-    {
-      "nome": "Wesley",
-      "email": "wesley@email.com",
-      "senha": "Mozao123",
-      "id": 5
     }
   ]
 }
