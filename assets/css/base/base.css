@@ -1,6 +1,5 @@
 @import url(_variaveis.css);
 @import url(../componentes/chamada.css);
-@import url(../componentes/logo.css);
 
 body {
   background-image: url(../../img/Forma\ 1_360px.svg);

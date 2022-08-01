@@ -120,6 +120,11 @@ textarea {
     height: 6.5rem;
   }
 
+  .input__campo__sobre {
+    box-sizing: border-box;
+    height: 6.5rem;
+  }
+
   .formulario_tipo_1 div:first-child{
     order: 2;
   }
@@ -134,6 +139,10 @@ textarea {
 
   .formulario_tipo_1 div:nth-child(4){
     order: 4;
+  }
+
+  .formulario_tipo_1 div:nth-child(5){
+    order: 5;
   }
 }
 

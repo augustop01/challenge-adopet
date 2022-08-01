@@ -3,10 +3,10 @@
   border-radius: 8px;
   color: var(--branco);
   font: var(--botao);
-  margin-top: 16px;
+  margin-top: 1rem;
   border: none;
-  height: 40px;
-  width: 180px;
+  height: 2.5rem;
+  width: 11.25rem;
   box-shadow: 2px 2px 4px #00000025;
   padding: 0;
 }

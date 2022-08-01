@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="assets/css/base/base.css" />
     <link rel="stylesheet" href="assets/css/componentes/botao.css" />
     <link rel="stylesheet" href="assets/css/componentes/cabecalho.css" />
-    <link rel="stylesheet" href="assets/css/componentes/formulario.css" /
-    <link rel="stylesheet" href="assets/css/componentes/logo.css" />
+    <link rel="stylesheet" href="assets/css/componentes/formulario.css" />
     <link rel="stylesheet" href="assets/css/componentes/rodape.css" />
     <link rel="stylesheet" href="assets/css/style-login.css">
   </head>
@@ -44,17 +43,18 @@
       <form class="formulario__container">
         <div class="input__container">
         <label class="label__cadastro" for="email">E-mail</label>
-        <input class="input_cadastro input__login__email" type="email" placeholder="Insira seu email" aria-label="Insira seu email" id="email">
+        <input class="input_cadastro input__login__email" type="email" placeholder="Insira seu email" aria-label="Insira seu email" id="email" data-email required>
         </div>
         
         <div class="input__container">
         <label class="label__cadastro" for="senha">Senha</label>
-        <input class="input_cadastro input__login__senha" type="password" placeholder="Insira sua senha" aria-label="Insira sua senha" id="senha">
+        <input class="input_cadastro input__login__senha" type="password" placeholder="Insira sua senha" aria-label="Insira sua senha" id="senha" data-senha required>
         <i class="toggle__senha"><img src="/assets/img/Vector-password.svg" alt=""></i>
         </div>
         <a class="recuperar__senha" href="#">Esqueci minha senha.</a>
+        <button class="botao botao__login">Entrar</button>
       </form>
-      <button class="botao botao__login">Entrar</button>
+      
     </main>
     <footer>
       <section class="rodape">
@@ -62,6 +62,7 @@
       </section>
     </footer>
   </body>
+  <script type="module" src="/assets/js/controller/login-controller.js"></script>
 </html>
 
 </input>

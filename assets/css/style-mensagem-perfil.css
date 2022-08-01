@@ -123,7 +123,7 @@
     
     main {
       background-image: url(../../assets/img/Forma\ 2_right_768px.svg);
-      background-position: right bottom 10.25rem;
+      background-position: right bottom 14rem;
       background-repeat: no-repeat;
     }
 
@@ -147,7 +147,7 @@
 
     .chamada__container__perfil {
       font-size: 18px;
-      margin-top: 5.375rem;
+      margin-top: 5.175rem;
       padding-left: 27.75rem;
       padding-right: 27.75rem;
     }

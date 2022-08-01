@@ -9,6 +9,15 @@
   margin-bottom: 1.5rem;
 }
 
+.logo__index {
+  background-image: url(../../img/Logo_branca_360px.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 3rem;
+  width: 100%;
+}
+
 .chamada__cadastro {
   font: var(--paragrafo);
   text-align: center;
@@ -31,7 +40,6 @@
 
 .chamada__texto {
   font: var(--paragrafo);
-  height: 72px;
   margin-bottom: 0.5rem;
 }
 
@@ -42,6 +50,11 @@
     width: 100%;
     margin-top: 9.5rem;
     margin-bottom: 2.5rem;
+  }
+
+  .logo__index {
+    background-image: url(../../img/Logo_branca_768px.svg);
+    height: 3.875rem;
   }
   
   .chamada__cadastro {

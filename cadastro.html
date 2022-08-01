@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="assets/css/componentes/botao.css" />
     <link rel="stylesheet" href="assets/css/componentes/cabecalho.css" />
     <link rel="stylesheet" href="assets/css/componentes/formulario.css" />
-    <link rel="stylesheet" href="assets/css/componentes/logo.css" />
     <link rel="stylesheet" href="assets/css/componentes/rodape.css" />
     <link rel="stylesheet" href="assets/css/style-cadastro.css">
   </head>
@@ -41,31 +40,32 @@
         <p class="chamada__cadastro">Ainda não tem cadastro?</p>
         <p class="chamada__cadastro">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
       </section>
-      <form class="formulario__container formulario_tipo_1">
-        <div class="input__container">
+      <form class="formulario__container formulario_tipo_1" id="formulario__cadastro">
+        <div class="input__container" id="email__usuario">
           <label class="label__cadastro" for="email">E-mail</label>
-          <input class="input_cadastro" type="email" placeholder="Escolha seu melhor email" aria-label="Escolha seu melhor email" id="email">
+          <input class="input_cadastro" type="email" placeholder="Escolha seu melhor email" aria-label="Escolha seu melhor email" id="email" data-email required>
         </div>
         
-        <div class="input__container">
+        <div class="input__container" id="nome__usuario">
           <abell class="label__cadastro" for="nome">Nome</abell>
-          <input class="input_cadastro" type="text" placeholder="Digite seu nome completo" aria-label="Digite seu nome completo" id="nome">
+          <input class="input_cadastro" type="text" placeholder="Digite seu nome completo" aria-label="Digite seu nome completo" id="nome" pattern="^(?=.*[a-zA-Z]).{2,}$" title="O nome deve conter pelo menos duas letras." data-nome required>
         </div>
         
-        <div class="input__container">
+        <div class="input__container" id="senha__usuario">
           <label class="label__cadastro" for="senha">Senha</label>
-          <input class="input_cadastro" type="password" placeholder="Crie uma senha" aria-label="Crie uma senha" id="senha">
+          <input class="input_cadastro" type="password" placeholder="Crie uma senha" aria-label="Crie uma senha" id="senha" pattern="^(?=.*[a-z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"  title="A senha deve conter de 6 a 12 caracteres, contendo pelo menos uma letra maiúscula, um número, e não deve conter símbolos (!@#$%^&*_=+-)." data-senha required>
           <i class="toggle__senha"><img src="/assets/img/Vector-password.svg" alt=""></i>
         </div>
 
-        <div class="input__container">
+        <div class="input__container" id="confirma__senha">
           <label class="label__cadastro" for="confirma_senha">Confirma sua senha</label><br>
-          <input class="input_cadastro" type="password" placeholder="Repita a senha criada acima" aria-label="Repita a senha criada acima" id="confirma_senha">
+          <input class="input_cadastro" type="password" placeholder="Repita a senha criada acima" aria-label="Repita a senha criada acima" id="confirma_senha" pattern="^(?=.*[a-z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter de 6 a 12 caracteres, contendo pelo menos uma letra maiúscula, um número, e não deve conter símbolos (!@#$%^&*_=+-)." data-confirma-senha required>
           <i class="toggle__senha"><img src="/assets/img/Vector-password.svg" alt=""></i>
         </div>
-
+        <div>
+        <button class="botao botao__cadastro">Cadastrar</button>
+        </div>
       </form>
-      <button class="botao botao__cadastro">Cadastrar</button>
     </main>
     <footer>
       <section class="rodape">
@@ -73,6 +73,6 @@
       </section>
     </footer>
   </body>
+  <script type="module" src="/assets/js/controller/cadastro-controller.js"></script>
 </html>
-
 </input>
