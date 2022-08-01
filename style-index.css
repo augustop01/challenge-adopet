@@ -1,0 +1,154 @@
+body {
+  height: 64rem;
+}
+
+main {
+  position: relative;
+  display: flex;
+  background-image: url(../img/Forma\ 2_rigth_mobile.svg);
+  background-repeat: no-repeat;
+  background-position: right top 8.125rem;
+}
+
+.logo__container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.corpo__splash {
+  position: absolute;
+  z-index: -1;
+  right: 0%;
+  top: 12.5rem;
+}
+
+.fundo__inicial {
+  background-color: var(--azul-padrao);
+  height: 100%;
+}
+
+.logo__container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.chamada__container {
+  background-image: url(../img/Ilustração\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: left 2.10rem bottom -1.25rem;
+  color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+  padding-bottom: 19.9375rem;
+  text-align: center;
+  width: 22.5rem;
+}
+
+.chamada__titulo {
+  font: var(--chamada-titulo);
+  height: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.chamada__texto {
+  font: var(--paragrafo);
+  margin-bottom: 0.5rem;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
+.chamada__texto__2 {
+  display: none;
+}
+
+.ilustracao__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ilustracao__1 {
+  margin-bottom: -1.5rem;
+  margin-right: 20%;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  main {
+    background-image: url(../../assets/img/Forma\ 2_right_768px.svg);
+    background-position: right top 10.5rem;
+    width: 100%;
+  }
+
+  .chamada__container {
+    background-image: url(../img/Ilustração_1_768px.svg);
+    background-position: bottom -1.5rem left calc(50% - 1.25rem);
+    margin-top: 11.1875rem;
+    padding-bottom: 26.3125rem;
+    width: 48rem;
+  }
+
+  .botao__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chamada__titulo {
+    font: var(--chamada-titulo-2);
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .chamada__texto {
+    display: none;
+  }
+
+  .chamada__texto__2 {
+    font: var(--paragrafo);
+    display: initial;
+    font-size: 1.125rem;
+    margin-left: 13.25rem;
+    margin-right: 13.25rem;
+  }
+
+  .botao {
+  font-size: 18px;
+  height: 3rem;
+  width: 21.5rem;
+  }
+
+  .botao:first-of-type {
+    margin-top: 2.375rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  main {
+    background-image: url(../../assets/img/Forma\ 2_right_768px.svg);
+    background-position: right top 5.375rem;
+    width: 100%;
+  }
+
+  .chamada__container {
+    background-position: bottom -1.5rem left calc(50% - 1.25rem);
+    margin-top: 2.5rem;
+    width: 100%;
+    padding-bottom: 27.625rem;
+  }
+
+  .chamada__texto__2 {
+    margin-left: 29.75rem;
+    margin-right: 29.75rem;
+  }
+  
+  .botao {
+    width: 22.625rem;
+  }
+}
